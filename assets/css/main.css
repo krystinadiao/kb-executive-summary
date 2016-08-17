@@ -3210,3 +3210,13 @@ h1{
   background-color:#e9e7e7!important;
   border:1px solid #e9e7e7 !important;
 }
+
+.leftdiv{
+	float:left;
+	width:40%;
+}
+
+.rightdiv{
+	float:right;
+	width:40%;
+}
