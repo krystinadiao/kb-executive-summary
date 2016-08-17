@@ -3198,8 +3198,8 @@ h1{
 
 .btn{
   border:1px solid #dbdada !important;
-  width:100px;
-  background-color:#fff;
+  width:100px!important;
+  background-color:#fff!important;
   margin-right:5px;
   margin-bottom:5px;
   margin-left:25%;
@@ -3207,16 +3207,6 @@ h1{
 }
 
 .btn:hover{
-  background-color:#e9e7e7;
+  background-color:#e9e7e7!important;
   border:1px solid #e9e7e7 !important;
-}
-
-.halfdivleft{
-	max-width:40%;
-	float:left;
-}
-
-.halfdivright{
-	max-width:40%;
-	float:right;
 }
