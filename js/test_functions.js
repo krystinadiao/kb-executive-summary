@@ -9,9 +9,9 @@ function buildChart(target, type, dataurl) {
         url: dataurl,
         // what format is the data in. This will change if you load from a remote source.
         mimeType: 'json',
-        type: type 
+        type: type
 
-
+ 
     };
 
     var chart = c3.generate({

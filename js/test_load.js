@@ -4,6 +4,23 @@ $(function() {
 
     buildChartCategories("#barchart", "bar", "../data/barChartCats.json");
 
+    buildChartYear("#datedchart");
 
+    //
+    // buildChartSmall("#analytics1", "pie", "/data/analytics1.json");
+    // buildChartSmall("#analytics2", "pie", "/data/analytics2.json");
+    // buildChartSmall("#analytics3", "pie", "/data/analytics3.json");
+    // buildChartSmall("#analytics4", "area-spline", "/data/areaChartSample.json");
+    //
+    // buildChartSmall("#chart5", "area-spline", "/data/areaChartSample.json");
+    //
+    //
+    // buildChartSmallFrontDoor("#frontdoor2");
+    // buildChartSmallEngineering("#engineering2");
+    // buildChartSmallOther("#other2");
+    // buildChartSmallBV("#bv2");
+    //
+    // buildChartCases("#casesPerMonth", "line", "/data/casesPerMonth.json")
+    // buildChartUniqueUsers("#uniqueUsers")
 
 });
