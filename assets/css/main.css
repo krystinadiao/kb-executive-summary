@@ -3206,6 +3206,7 @@ h1{
 }
 
 .btn:hover{
+	cursor:hand;
   background-color:#e9e7e7!important;
   border:1px solid #e9e7e7 !important;
 }

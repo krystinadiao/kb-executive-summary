@@ -1,4 +1,8 @@
 var drilldata1 = {
+  size:{
+    height:250,
+    width:250
+  },
   'Covered by KB': [
       ['Add Brand', 78],
       ['Duplicate Account', 90],
@@ -18,6 +22,10 @@ var drilldata1 = {
 };
 
 var chart = c3.generate({
+  size:{
+    height:250,
+    width:250
+  },
   bindto: '#donutChart1',
   data: {
       columns: [
@@ -39,7 +47,6 @@ var chart = c3.generate({
 
   legend: {
       show: true,
-      position:'right'
   },
 
   donut: {
@@ -80,6 +87,10 @@ d3.select('#A')
 
 
 var drilldata2 = {
+  size:{
+    height:250,
+    width:250
+  },
   'Covered by KB': [
       ['Sign-Up Issues', 11],
       ['Misrouted Content', 34],
@@ -101,7 +112,15 @@ var drilldata2 = {
   ]
 };
 
+
+
+
+
 var chart2 = c3.generate({
+  size:{
+    height:250,
+    width:250
+  },
   bindto: '#donutChart2',
   data: {
       columns: [
@@ -123,7 +142,6 @@ var chart2 = c3.generate({
 
   legend: {
       show: true,
-      position:'right'
   },
 
   donut: {
