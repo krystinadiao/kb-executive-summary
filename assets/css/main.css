@@ -3195,3 +3195,22 @@ h1{
 .feature2{
 	background-color:#f9f9f9 !important;
 }
+
+.btn{
+  border:1px solid #dbdada !important;
+  width:100px;
+  background-color:#fff;
+  margin-right:5px;
+  margin-bottom:5px;
+  margin-left:25%;
+  margin-top:5px;
+}
+
+.btn:hover{
+  background-color:#e9e7e7;
+  border:1px solid #e9e7e7 !important;
+}
+
+.halfdiv{
+	width:50%;
+}
