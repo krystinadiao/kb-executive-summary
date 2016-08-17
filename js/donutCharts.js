@@ -1,7 +1,7 @@
 var drilldata1 = {
   size:{
-    height:250,
-    width:250
+    height:350,
+    width:350
   },
   'Covered by KB': [
       ['Add Brand', 78],
@@ -23,8 +23,8 @@ var drilldata1 = {
 
 var chart = c3.generate({
   size:{
-    height:250,
-    width:250
+    height:350,
+    width:350
   },
   bindto: '#donutChart1',
   data: {
@@ -88,8 +88,8 @@ d3.select('#A')
 
 var drilldata2 = {
   size:{
-    height:250,
-    width:250
+    height:350,
+    width:350
   },
   'Covered by KB': [
       ['Sign-Up Issues', 11],
@@ -118,8 +118,8 @@ var drilldata2 = {
 
 var chart2 = c3.generate({
   size:{
-    height:250,
-    width:250
+    height:350,
+    width:350
   },
   bindto: '#donutChart2',
   data: {
