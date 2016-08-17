@@ -20,7 +20,7 @@ $(function() {
     // buildChartSmallOther("#other2");
     // buildChartSmallBV("#bv2");
     //
-    // buildChartCases("#casesPerMonth", "line", "/data/casesPerMonth.json")
-    buildChartUniqueUsers("#uniqueUsers")
+    buildChartCases("#casesPerMonth", "line", "/data/casesPerMonth.json")
+    // buildChartUniqueUsers("#uniqueUsers")
 
 });
