@@ -2339,7 +2339,7 @@ h1{
 
 /* Button */
 
-	input[type="submit"],
+	/*input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	.button {
@@ -2417,7 +2417,7 @@ h1{
 		input[type="button"].small,
 		.button.small {
 			font-size: 0.8em;
-		}
+		}*/
 
 /* Box */
 
@@ -3201,6 +3201,7 @@ h1{
 	color:#b2b2b2!important;
   width:100px!important;
   background-color:#fff!important;
+	margin-right:15%;
 }
 
 .btn:hover{
