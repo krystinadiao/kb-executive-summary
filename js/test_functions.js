@@ -209,7 +209,8 @@ var chart = c3.generate({
 
 
             size: {
-              height: 150
+              height:350,
+              width:350
             },
 
           color: {

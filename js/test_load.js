@@ -7,8 +7,8 @@ $(function() {
     buildChartYear("#datedchart");
 
     //
-    // buildChartSmall("#analytics1", "pie", "/data/analytics1.json");
-    // buildChartSmall("#analytics2", "pie", "/data/analytics2.json");
+    buildChartSmall("#analytics1", "pie", "/data/analytics1.json");
+    buildChartSmall("#analytics2", "pie", "/data/analytics2.json");
     // buildChartSmall("#analytics3", "pie", "/data/analytics3.json");
     // buildChartSmall("#analytics4", "area-spline", "/data/areaChartSample.json");
     //
