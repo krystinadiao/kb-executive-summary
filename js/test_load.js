@@ -21,6 +21,6 @@ $(function() {
     // buildChartSmallBV("#bv2");
     //
     buildChartCases("#casesPerMonth", "line", "/data/casesPerMonth.json")
-    // buildChartUniqueUsers("#uniqueUsers")
+    buildChartUniqueUsers("#uniqueUsers")
 
 });
